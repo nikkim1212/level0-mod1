@@ -1,0 +1,23 @@
+package _03_if_else._1_unbirthday;
+
+import javax.swing.JOptionPane;
+
+public class unbirthday_1 {
+
+	public static void main(String[] args) {
+		
+		
+		String userinput = JOptionPane.showInputDialog("When is your birthday? ");
+		
+		
+		if(userinput.equals("11/16/2022")) {
+		
+			JOptionPane.showMessageDialog(null, "Happy Birthday! ");
+	}
+		else {
+			JOptionPane.showMessageDialog(null, "Happy UNhappy Birthday! ");
+		}
+}	
+}
+
+
